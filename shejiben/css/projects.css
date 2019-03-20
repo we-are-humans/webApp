@@ -1,0 +1,124 @@
+
+
+/*nav*/
+.case-nav{
+    background: #fff;
+    overflow: hidden;
+}
+.case-nav li{
+    float: left;
+    width: 33.3%;
+    height: 120px;
+    text-align: center;
+}
+.case-nav li i {
+    width: 58px;
+    height: 58px;
+    margin: 20px auto 0;
+    display: block;
+    background: url(../img/sprite1.png) no-repeat;
+    background-size: 58px;
+}
+.case-nav li h1 {
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    font-weight: 400;
+}
+.case-nav li .icon-case-jiaz{
+    background-position: 0px -79px;
+}
+.case-nav li .icon-case-gongz{
+    background-position: 0px -157px;
+}
+
+/*案例解析*/
+.case-jiexi{
+    margin-top: 10px;
+    background: #fff;
+
+}
+.case-jiexi h1{
+    font-size: 16px;
+    color: #000;
+    padding: 13px 0 15px 10px;
+    font-weight: 400;
+}
+.case-jiexi li{
+    position: relative;
+    width: 100%;
+}
+.case-jiexi li a {
+    width: auto;
+    display: block;
+    margin: 0 10px 10px;
+}
+.case-jiexi li a img{
+    width: 100%;
+}
+/*家装案例*/
+.case-jiaz{
+    margin-top: 10px;
+    background: #fff;
+}
+.case-jiaz h1{
+    font-size: 16px;
+    color: #000;
+    padding: 13px 0 15px 10px;
+    font-weight: 400;
+}
+.case-jiaz ul li {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.case-jiaz ul li a {
+    width: 100%;
+    display: block;
+    }
+.case-jiaz ul li .case-pic{
+    position: relative;
+    padding: 28.34% 0;
+    overflow: hidden;
+}
+.case-jiaz ul li .case-pic img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.case-jiaz ul li .head{
+    position: absolute;
+    bottom: 73px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.case-jiaz ul li .head img{
+
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: 2px #fff solid;
+    border-radius: 30px;
+}
+.case-jiaz ul li .name {
+    margin: 32px 0 10px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    text-align: center;
+}
+
+.case-jiaz ul li .title {
+    margin: 0;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+}

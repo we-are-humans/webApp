@@ -1,0 +1,117 @@
+header{
+    height:1rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    background:white;
+}
+section{
+    /* overflow-y:auto; */
+    /* height:100%; */
+    display:-webkit-flex;
+    -webkit-flex:1;
+
+}
+/* 左侧盒子 */
+.asideL{
+    
+    height:100%;
+    overflow-y:auto;
+    width:.75rem;
+    background:#d9dde0;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+
+}
+.asideL a{
+    -webkit-flex-shrink:0;
+    font-size:.1rem;
+    height:.57rem;
+    color:black;
+    border-top:1px solid #edeef2;
+    border-bottom:1px solid #edeef2;
+    margin-bottom:2px;
+    background:white;
+    line-height:.57rem;
+    text-align:center;
+}
+.asideL a:first-child{
+    border-top:0;
+}
+.asideL a:hover{
+    color:#d53f40;
+}
+/* 右侧盒子 */
+.asideR{
+    overflow-y:auto;
+    -webkit-flex:1;
+
+ 
+}
+.base{
+    margin:.06rem .07rem .3rem  .09rem;
+}
+.base h1{
+    font-size:.1rem;
+    color:black;
+    line-height:.26rem;
+}
+.baseBox{
+    background:white;
+    display:-webkit-flex;
+    width:2.8rem;
+    /* height:.83rem; */
+    -webkit-align-items:center;
+}
+.baseBox a{
+    padding: .15rem .24rem .1rem .25rem;
+    -webkit-flex-shrink:0;
+}
+.baseBox img{
+    width:.34rem;
+    height:.34rem;
+    border-radius:.03rem;
+    margin:0 auto;
+}
+.baseBox span{
+    font-size:.09rem;
+    color:black;
+    display:block;
+    line-height:.24rem;
+}
+.improveBox{
+    margin-bottom:.11rem;
+}
+.improve{
+    -webkit-flex-wrap:wrap;
+}
+
+/* 课程列表 */
+.couList{
+    margin:.06rem .07rem .3rem  .09rem;
+
+}
+.couItem{
+    display:-webkit-flex;
+    margin-bottom:.15rem;
+}
+.couItem img{
+    width:.87rem;
+    height:.58rem;
+    margin-right:.11rem;
+}
+.des{
+
+}
+.des p{
+    font-size:.05rem;
+    color:#878a91;
+    line-height:.17rem;
+}
+.des h1{
+    font-size:.12rem;
+    color:black;
+    line-height:.2rem;
+}
+.free{
+    font
+}

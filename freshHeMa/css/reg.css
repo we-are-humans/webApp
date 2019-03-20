@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+/*body,html{*/
+/*height: 100%;*/
+/*}*/
+body{
+  font-family:"微软雅黑";
+  /*display: -webkit-flex;*/
+  /*-webkit-flex-direction: column;*/
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .55rem;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+header a .icon-back{
+  color: #191d19;
+  font-size: .2rem;
+  line-height:.2rem ;
+  margin-left: .24rem;
+}
+header h3{
+  color:#191d19 ;
+  font-size: .16rem;
+  line-height: .16rem;
+  font-weight: 100;
+  margin-left: .33rem;
+}
+/*register*/
+.log{
+  margin: 0 .2rem;
+}
+.country{
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  margin-top: .5rem;
+}
+.country p{
+  color:#464846 ;
+  font-size: .13rem;
+  line-height:.13rem ;
+}
+.country a span:nth-child(1){
+  color:#464846 ;
+  font-size: .13rem;
+  line-height:.13rem ;
+}
+.country .icon-jiantou{
+  color:#464846 ;
+  font-size: .13rem;
+  line-height:.13rem ;
+}
+.regs{
+  position: relative;
+  margin-top: .32rem;
+}
+.regs input:nth-child(1){
+  display: -webkit-flex;
+  width: 3.35rem;
+  height:.31rem ;
+  color: #b1b0b1;
+  font-size:.18rem ;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ff4000;
+}
+.regs input:nth-child(2){
+  display: -webkit-flex;
+  width: 3.35rem;
+  height:.31rem ;
+  color: #b1b0b1;
+  font-size:.15rem ;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ff4000;
+  margin-top: .15rem;
+}
+.regs span{
+  display: -webkit-flex;
+  color: #ffd1a8;
+  font-size: .13rem;
+  line-height: .13rem;
+  position: absolute;
+  top:.54rem;
+  left:2.6rem;
+}
+.agree{
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  margin-top: .44rem;
+}
+.agree input{
+  display:-webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  width: 3.34rem;
+  height: .46rem;
+  background:#ffbe7b ;
+  font-size:.16rem ;
+  line-height: .16rem;
+  color: #ffd1a8;
+  border-radius: .24rem;
+  border: none;
+  outline: none;
+}
+.luo{
+  display: -webkit-flex;
+  -webkit-flex-shrink: 0;
+  -webkit-flex-wrap: wrap;
+  margin-top: .18rem;
+}
+.luo p{
+  color: #b1b0b1;
+  font-size:.13rem ;
+  line-height: .18rem;
+}
+.luo a{
+  color:#191d19 ;
+  font-size:.13rem ;
+  text-decoration: underline;
+}

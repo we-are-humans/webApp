@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body,html{
+  height: 100%;
+}
+body{
+  font-family:"微软雅黑";
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .51rem;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  border-bottom: 1px solid #f6f6f6;
+}
+header .icon-back{
+  color: #424542;
+  font-size:.18rem ;
+  line-height: .18rem;
+  margin-left:.18rem ;
+  margin-right:.15rem ;
+}
+header h3{
+  color: black;
+  font-size: .18rem;
+  line-height:.18rem ;
+}
+header .icon-gouwuche{
+  color: black;
+  font-size:.18rem ;
+  line-height: .18rem;
+  margin-left: 2.05rem;
+}
+/*nav*/
+nav{
+  height: .43rem;
+  border-bottom: 1px solid #f6f6f6;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+nav p{
+  display: -webkit-flex;
+  margin-left:.11rem ;
+}
+nav p span:nth-child(1){
+  color: #1a1a1a;
+  font-size: .14rem;
+  line-height: .14rem;
+  margin-right: 1rem;
+}
+nav p span:nth-child(2){
+  color: #2da7ff;
+  font-size: .12rem;
+  line-height:.12rem ;
+}
+/*buyList*/
+.like{
+  margin-left: .12rem;
+}
+.guess{
+  display: -webkit-flex;
+  background: white;
+  border-bottom: 1px solid #f0f0f0;
+}
+.guess .can_right:nth-child(2n+1){
+  margin-right: .03rem;
+}
+.guess .can_right{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+.can1 a img{
+  width: .85rem;
+  height: .85rem;
+  margin-right: .04rem;
+}
+.can2 h3{
+  color: #313031;
+  width: 2.35rem;
+  font-size: .14rem;
+  line-height: .18rem;
+  margin: .11rem 0;
+}
+.can2 p:nth-child(2),.can2 p:nth-child(3){
+  color: #8f8d8f;
+  font-size: .13rem;
+  line-height: .13rem;
+  /*margin-bottom: .11rem;*/
+}
+.can2 p:nth-child(3){
+  margin:.09rem 0 ;
+}
+.can2 .money{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-bottom: .12rem;
+}
+.can2 .money p:nth-child(1){
+  color: #8f8d8f;
+  font-size: .13rem;
+  line-height: .13rem;
+}
+.can2 .money p:nth-child(1) span{
+  color: #ff332f;
+  font-weight: 600;
+}
+.can2 .money p:nth-child(2){
+  color: #8f8d8f;
+  font-size: .13rem;
+  line-height: .13rem;
+  text-decoration: line-through;
+}
+.can2 .money a{
+  color: #0db1ff;
+  font-size:.1rem ;
+  line-height:.1rem ;
+  border:1px solid #0db1ff;
+  padding: .08rem .12rem;
+  border-radius: .15rem;
+  margin-left: .49rem;
+}
+.buyBox{
+  -webkit-flex: 1;
+  overflow-y: auto;
+}

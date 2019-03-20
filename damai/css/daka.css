@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td,select,option{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 26.67vw;
+}
+body{
+	display: -webkit-flex;
+	font-family: "微软雅黑",Arial;
+	/*background: #f5f5f9;*/
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+ul,ol,select,option,input{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	
+}
+.heaTitle{
+	display: -webkit-flex;
+	padding-left: 0.15rem;
+	padding-top: 0.24rem;
+	padding-bottom: 0.15rem;
+	border-bottom: 1px solid #dadcdc;
+}
+
+.heaTitle img{
+	margin-right: 0.15rem;
+	width:0.155rem ;
+	height:0.155rem ;
+}
+.heaTitle h1{
+	font-size: 16px;
+}
+/* ------------------------- */
+nav{
+	
+}
+.naheard{
+	position: relative;
+}
+.navImg img{
+	width: 3.75rem;
+	height: 1.45rem;
+}
+
+/* ------------------------ */
+.navlist{
+	width: 3.75rem;
+	position: absolute;
+	top: 0.4rem;
+	left: 0;
+}
+.navlistOne{
+	
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	padding-left: 0.2rem;
+	padding-right: 0.19rem;
+}
+.navlistOne span{
+	font-size: 29px;
+	color: #c8bbd4;
+}
+.navliSou{
+	display: -webkit-flex;
+	position: relative;
+}
+.navliSou img{
+	width: 0.14rem;
+	height: 0.14rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.2rem;
+}
+input::-webkit-input-placeholder {
+        color: #111;
+        font-size: 12px;
+   }
+.navliSou input{
+	
+	width: 1.0rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	border-radius: 0.18rem;
+	padding-left: 0.4rem;
+	border: 0;
+	outline: 0;
+	background: #9c8cb5;
+}
+.navlistTwo{
+	margin-top: 0.17rem;
+	padding-left: 0.2rem;
+	padding-right: 0.19rem;
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+}
+.navlistTwo span{
+	font-size: 12px;
+	color: #c8bbd4;
+}
+.nTwoguan{
+	display: -webkit-flex;
+
+}
+.nTwoguan span{
+	font-size: 12px;
+	color: #c8bbd4;
+}
+.nTwoguan img{
+	margin-left: 0.1rem;
+	margin-top: 0.04rem;
+	width: 0.12rem;
+	height: 0.12rem;
+}
+/* --------------------------- */
+.title-list{
+	padding-left: 0.08rem;
+
+	/* width: 3.67rem; */
+	display: -webkit-flex;
+	overflow-x: auto;
+	-webkit-flex:1;
+	flex-wrap: nowrap;
+	padding-top: 0.15rem;
+	padding-bottom: 0.13rem;
+	margin-bottom: 0.13rem;
+}
+
+ .title-list li{
+	height: .3rem;
+	line-height: 0.3rem;
+	flex-shrink: 0;
+	font-size: 13px;
+	padding: 0 .2rem;
+	color: #000000;
+	margin-right: 0.1rem;
+	border-radius:0.15rem ;
+	background: #eeeeee;
+}
+ .title-list li:first-child{
+	background: #ff1268;
+	color: #FFFFFF;
+}
+
+
+/* ------------------------------------- */
+.stalist{
+	/* display: -webkit-flex; */
+}
+.stalist li {
+	display: block;
+	margin: 0.18rem;
+	width:3.15rem;
+	/* height: 1.12rem; */
+	border: 1px solid #eeeeee;
+	border-radius: 0.05rem;
+	padding: 0 0.12rem;
+}
+.tar-peopo{
+	display: -webkit-flex;
+	border-bottom: 1px solid #eeeeee;
+	-webkit-justify-content: space-between;
+
+}
+.tar-peopo img{
+	margin-right: 0.1rem;
+	margin-bottom: 0.1rem;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.jj{
+	margin-top: 0.2rem;
+	margin-right: 0.27rem;
+	display: -webkit-flex;
+}
+.jj p{
+	font-size: 16px;		
+}
+.jj span:last-child{
+	font-size: 10px;
+	color: #9d9d9d;
+	display: -webkit-flex;
+
+}
+.jjlist{
+	/* display: -webkit-flex; */
+}
+.jjlist span:first-of-type{
+	display: -webkit-flex;
+	margin-bottom: 0.09rem;
+}
+.jjlist span:first-of-type p:last-of-type{
+	font-size: 0.1rem;
+	color: #f14480;
+	background: #ffe8f0;
+	display: -webkit-flex;
+	margin-left: 0.1rem;
+	padding: 0.03rem;
+	border-radius: 0.03rem;
+	border-bottom-left-radius: ;
+	border-bottom-right-radius:0.08rem ;
+}
+.tar-peopo{
+	display: -webkit-flex;
+
+}
+.tar-zhuye{
+	margin-top: 0.21rem;
+	width: 0.58rem;
+	height: 0.27rem;
+	display: -webkit-flex;
+	border: 1px solid #f14480;
+	border-radius: 0.135rem;
+}
+.tar-zhuye a{
+	width: 0.58rem;
+	height: 0.27rem;
+	text-align: center;
+	line-height: 0.27rem;
+	font-size: 14px;
+	color: #f14480;
+}
+.tar-botton{
+	padding-top: 0.13rem;
+	padding-bottom: 0.15rem;
+	border-bottom: 1px solid #eeeeee;
+
+}
+.tar-botton p:first-of-type{
+	color: #000;
+	font-size: 13px;
+	margin-bottom: 0.09rem;
+}
+.tar-botton p:last-of-type{
+	color: #bababa;
+	font-size: 12px;
+}
+.tar-botton img{
+	width: 0.11rem;
+	height: 0.11rem;
+}
+nav{
+	flex: 1;
+	overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td,select,option{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 26.67vw;
+}
+body{
+	display: -webkit-flex;
+	font-family: "微软雅黑",Arial;
+	/*background: #f5f5f9;*/
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+ul,ol,select,option,input{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+.header{
+	
+}
+.heaTitle{
+	display: -webkit-flex;
+	padding-left: 0.15rem;
+	padding-top: 0.24rem;
+	padding-bottom: 0.15rem;
+	border-bottom: 1px solid #dadcdc;
+}
+
+.heaTitle img{
+	margin-right: 0.15rem;
+	width:0.155rem ;
+	height:0.155rem ;
+}
+.heaTitle h1{
+	font-size: 15px;
+}
+/* ---------------------- */
+
+
+
+
+
+
+
+
+.title-list{
+	padding-left: 0.08rem;
+
+	width: 3.67rem;
+	display: -webkit-flex;
+	overflow-x: auto;
+	-webkit-flex:1;
+	flex-wrap: nowrap;
+}
+
+ .title-list li{
+	/* height: .3rem; */
+	flex-shrink: 0;
+	font-size: 15px;
+	padding: 0 .1rem;
+	color: #000000;
+	padding-top: 0.15rem;
+	padding-bottom: 0.13rem;
+	margin-bottom: 0.13rem;
+}
+ .title-list li:first-child{
+	border-bottom: 1px solid #F14480;
+	
+
+}
+/* ---------------------------- */
+
+.list-othe{
+	-webkit-justify-content: space-around;
+	display: -webkit-flex;
+}
+.list-othe{
+	width: 3.75rem;
+	background: #f5f5f5;
+	height: 0.45rem;
+
+}
+.list-othe li{
+	font-size: 14px;
+	display: -webkit-flex;
+	height: 0.45rem;
+	line-height: 0.45rem;
+}
+/* --------------------------------- */
+.addrelist{
+	
+}
+.addrelist li{
+	display: -webkit-flex;
+	padding-left: 0.18rem;
+	padding-right: 0.2rem;
+	margin:0 0 0.2rem 0 ;
+}
+.addrelist li img{
+	width: 0.9rem;
+	height: 1.2rem;
+	margin-right: 0.14rem;
+}
+.addre-text{
+	
+}
+.addre-text p:nth-of-type(1){
+	font-size: 16px;
+	font-weight: 900;
+}
+.addre-text p:nth-of-type(2){
+	font-size: 12px;
+
+}
+.addre-text p:nth-of-type(3){
+	font-size: 12px;
+	margin-bottom: 0.32rem;
+}
+.addre-text p:nth-of-type(4){
+	font-size: 14px;
+
+}
+nav{
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	flex: 1;
+	overflow-y: auto;
+}

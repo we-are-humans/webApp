@@ -1,0 +1,234 @@
+@charset "UTF-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+body{
+	background: #f8f8f8;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    max-width: 640px;
+    position: relative;
+}
+i{
+	font-style: inherit;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+    display: block;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+/* 顶部广告 */
+.topHot {
+    width: 100%;
+    height: 50px; 
+}
+.topHot a {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+}
+.topHot img {
+    width: 100%;
+    height: 50px;
+}
+/* 搜索框 */
+.search{
+    height: 55px;
+    padding: 10px 0;
+    background: #fff;
+    box-sizing: border-box;
+}
+.search .box{
+    width: 96%;
+    height: 34px;
+    margin: 0 auto;
+    line-height: 34px;
+    border: 1px #e3e3e3 solid;
+    border-radius: 17px;
+    background: #F8F8F8;
+}
+.search .box p{
+    width: 100%;
+    height: 20px;
+    margin: 6px auto 0;
+    padding: 0 15px;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+}
+.search .box p i{
+    width: 13px;
+    height: 13px;
+    margin: 0 4px -2px 0px;
+    display: inline-block;
+    background: url(../img/icon_search_s.png) no-repeat;
+    background-size: 13px;
+}
+/*header*/
+ header{
+	position: relative;
+    width: 100%;
+    background: #dd4f50;
+}
+header img{
+	width: 100%;
+	height: auto;
+}
+.logo{
+	width: 59px;
+    height: 19px;
+    float: left;
+    margin: 12px 0 0 15px;
+}
+.cust_online{
+	position: absolute;
+    top: 6px;
+    right: 84px;
+    width: 44px;
+    height: auto;
+    display: block;
+}
+.cut_line{
+	position: absolute;
+    top: 8px;
+    right: 69px;
+    width: 1px;
+    height: 28px;
+    background: #e47273;
+}
+.download { 
+	width: 44px;
+    height: auto;
+    float: right;
+    margin: 5px 10px 0 0;
+}
+/* footer */
+
+.tel{
+    padding: 5px 0;
+    margin-top: 10px;
+    height: 85px;
+    color: #333;
+    text-align: center;
+    background: #fff;
+}
+.tel .span-info{
+    margin-top: 4px;
+    height: 36px;
+    width: 100%;
+    display: block;
+    line-height: 36px;
+    font-size: 16px;
+}
+.tel .icon_tel{
+    display: inline-block;
+    margin: 0 0 -7px;
+    width: 25px;
+    height: 25px;
+    background: url(../img/tel_400_red.png) no-repeat;
+    background-size: 25px 25px;
+}
+.tel .span-tel{
+    margin-left: 5px;
+    color: rgb(221, 79, 80);
+    font-weight: bold;
+    font-size: 16px;
+}
+.copyright{
+    padding-bottom: 60px;
+    text-align: center;
+}
+.copyright p {
+    margin-top: 10px;
+    color: #999;
+}
+.copyright .link{
+    margin-top: 20px;
+   
+}
+.copyright a{
+    height: 16px;
+    padding: 0 10px;
+    display: inline-block;
+    color: #333;
+    overflow: hidden;
+    line-height: 16px;
+    border-right: 1px #999 solid;
+}
+.copyright .noBorder{
+    border: none;
+}
+
+/* 省略号*/
+
+.ect {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*加载更多*/
+.more{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px #f1f1f1 solid;
+}  
+.more i{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin: 0 0 -3px 6px;
+    border-top: solid 1px #333;
+    border-right: solid 1px #333;
+    transform: rotate(45deg);
+    vertical-align: 3px;
+}
+.clear {
+    clear: both;
+}
+/* 分页 */
+.page {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px #f1f1f1 solid;
+    background: #fff;
+}
+.page li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+.page li:first-child{
+    text-align: right;
+}
+.page li .active {
+    color: #999;
+}
+.page li:last-child{
+    text-align: left;
+}
+.page li .links {
+    color: #dd4f50;
+}

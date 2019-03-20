@@ -1,0 +1,75 @@
+header{
+    height:1rem;
+}
+section{
+    overflow-y:auto;
+    -webkit-flex:1;
+    background:white;
+
+}
+.speBox{
+    display:-webkit-flex;
+    margin:.1rem .12rem .12rem;
+    border-bottom:2px solid #d9dce1;
+    -webkit-justify-content:space-between;
+}
+.speL{
+}
+.tit{
+    font-size:.15rem;
+    color:black;
+    line-height:.3rem;
+}
+.detail{
+    font-size:.1rem;
+    color:#383f47;
+    line-height:.23rem;
+    width:2.4rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.timeBox{
+    background:#f9fafc;
+    border-top-left-radius: .08rem;
+    border-bottom-right-radius: .08rem;
+    font-size:.1rem;
+    color:#777e84;
+    /* width:1.81rem; */
+    height:.23rem;
+    text-align:center;
+    line-height:.23rem;
+    margin-bottom:.05rem;
+    margin-right:.6rem;
+}
+.time{
+    margin-right:.09rem;
+}
+.auth{
+    margin-left:.09rem;
+    margin-right:.09rem;
+
+}
+.posi{
+    margin-left:.09rem;
+}
+.priBox{
+    display:-webkit-flex;
+    width:2.4rem;
+    line-height:.2rem;
+    margin-bottom:.12rem;
+    -webkit-justify-content:space-between;
+}
+.price{
+    color:#3477fa;
+    font-size:.1rem;
+}
+.num{
+    font-size:.1rem;
+    color:#777e84;
+}
+.speImg{
+    width:.7rem;
+    height:.98rem;
+    border-radius:.03rem;
+}

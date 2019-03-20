@@ -1,0 +1,250 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body,html{
+  height: 100%;
+}
+body{
+  font-family:"微软雅黑";
+  background: #733818;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .52rem;
+  display: -webkit-flex;
+  background: white;
+  -webkit-align-items: center;
+}
+header .icon-back{
+  color:#1e1d1e ;
+  font-size:.18rem ;
+  line-height:.18rem ;
+  margin-left: .1rem;
+  margin-right: .13rem;
+  font-weight: 600;
+}
+header h3{
+  color:black;
+  font-size:.16rem ;
+  line-height: .16rem;
+}
+header .icon-gouwuche,header .icon-fenxiangdaozhuanfafasongzhiyuanquanxianxing{
+  color:#2c94f5 ;
+  font-size: .24rem;
+  line-height:.24rem ;
+  font-weight: 600;
+}
+header .icon-gouwuche{
+  margin-right: .22rem;
+  margin-left: 1.26rem;
+}
+/*banner*/
+.banner a img{
+  width: 100%;
+  height: 3rem;
+}
+/*strong*/
+.big{
+  margin: 0 .12rem;
+}
+.big-tit{
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}
+.big-tit img{
+  width: .96rem;
+  height: 1px;
+  margin-top: .2rem;
+}
+.big-tit h3{
+  color: white;
+  font-size: .15rem;
+  line-height: .15rem;
+  margin:.13rem .01rem 0 ;
+}
+.bigBox{
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+}
+.bigBox .style:nth-child(2n+1){
+  margin-right: .1rem;
+}
+.style{
+  margin-top: .16rem;
+  background: white;
+  width:1.7rem ;
+  border-radius: .02rem;
+}
+.style a img{
+  width: 1.7rem;
+  height: 1.29rem;
+  border-radius: .02rem;
+}
+.style p:nth-child(2){
+  color:#001728 ;
+  font-size: .12rem;
+  line-height:.15rem ;
+  font-weight: 600;
+  width: 1.35rem;
+  margin-top: .08rem;
+  margin-left: .1rem;
+}
+.style p:nth-child(3){
+  color: #ff4b48;
+  font-size: .11rem;
+  width: .23rem;
+  margin-left: .1rem;
+  margin-top: .08rem;
+  line-height: .11rem;
+  border: 1px solid #ff0000;
+  border-radius: .02rem;
+  margin-bottom: .11rem;
+}
+.fen{
+  display: -webkit-flex;
+  margin-left: .1rem;
+}
+.fen p{
+  color:#ff413e ;
+  font-size:.11rem ;
+  line-height: .11rem;
+  margin-right: .05rem;
+}
+.fen p span{
+  color: #8b898b;
+  font-size: .13rem;
+  line-height: .13rem;
+}
+.fen a{
+  -webkit-align-items: center;
+  margin-top: -.1rem;
+}
+.fen a span:nth-child(1){
+  color: #cfcecf;
+  font-size: .12rem;
+  line-height: .12rem;
+  text-decoration: line-through;
+}
+.bigBox .fen a .icon-jia{
+  color:#1fa6ff ;
+  font-size:.22rem ;
+  line-height: .22rem;
+  font-weight: 600;
+  margin-left: .4rem;
+  margin-bottom: .07rem;
+}
+/*dun*/
+.dunBox{
+  margin-left: .12rem;
+}
+.dunBox .style a img{
+  width: 1.39rem;
+  height: .95rem;
+  margin-top: .18rem;
+  margin-left: .14rem;
+  margin-bottom: .24rem;
+}
+.dunBox .fen a .icon-jia{
+  color:#1fa6ff ;
+  font-size:.22rem ;
+  line-height: .22rem;
+  font-weight: 600;
+  margin-left: .4rem;
+  margin-bottom: .07rem;
+}
+/*house*/
+.max{
+  margin-left: .12rem;
+}
+.well{
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+}
+.well .style{
+  width: 1.15rem;
+}
+.well .style:nth-child(2){
+  margin-left: .04rem;
+  margin-right: .04rem;
+}
+.well .style a img{
+  width: 1.15rem;
+  height:.72rem ;
+  margin-bottom: .24rem;
+}
+.well .style p:nth-child(2){
+  width: .93rem;
+}
+.well .style p:nth-child(4){
+  color: #cfcecf;
+  font-size: .12rem;
+  line-height: .12rem;
+  text-decoration: line-through;
+  margin-left: .08rem;
+}
+.well .fen a .icon-jia{
+  color:#1fa6ff ;
+  font-size:.22rem ;
+  line-height: .22rem;
+  font-weight: 600;
+  margin-left: .27rem;
+  margin-bottom: .07rem;
+}
+/*sea*/
+.time-nav{
+  display: -webkit-flex;
+  margin-left: .09rem;
+  margin-top: .23rem;
+}
+.time-nav img{
+  width: .11rem;
+  height: .16rem;
+}
+.time-nav a{
+  color:white ;
+  font-size:.13rem ;
+  line-height: .13rem;
+  padding: 0 .14rem;
+}
+.time-nav a:nth-child(2){
+  padding-left: .04rem;
+}
+.time-nav a:nth-child(7){
+  padding-right: .11rem;
+}
+.time-nav a:nth-child(8){
+  padding: 0;
+}
+.time-nav .icon-jiantou2-down{
+  color: #978f90;
+  font-size:.1rem ;
+  line-height:.1rem ;
+}
+.sea-box{
+  margin-left: .1rem;
+}
+.java{
+  -webkit-flex: 1;
+  overflow-y:auto;
+}

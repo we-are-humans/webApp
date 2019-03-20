@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: 0;
+  outline: 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  display: block; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  height: 0.44rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.05rem;
+  padding-right: 0.09rem; }
+  header img {
+    width: 0.77rem;
+    height: 0.18rem; }
+  header .iconfont {
+    font-size: 0.22rem;
+    color: #fff; }
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  section .search {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center; }
+    section .search .search-box {
+      width: 3.45rem;
+      height: 0.3rem;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      border-radius: 0.15rem; }
+      section .search .search-box .search-text {
+        font-size: 0.15rem;
+        color: gray;
+        padding-left: 0.3rem;
+        display: flex;
+        align-items: center;
+        background: url("../img/2.png") 0.1rem 50% no-repeat;
+        background-size: 0.15rem 0.15rem; }
+  section .banner {
+    margin-top: -0.88rem;
+    width: 3.75rem;
+    height: 2.69rem; }
+  section .nav {
+    display: flex;
+    align-items: center;
+    height: 0.94rem;
+    overflow-x: auto;
+    padding-top: 0.1rem; }
+    section .nav a {
+      color: gray;
+      text-align: center;
+      margin-left: 0.1rem;
+      padding-bottom: 0.1rem; }
+      section .nav a span {
+        display: block;
+        font-size: 0.14rem; }
+      section .nav a img {
+        margin-bottom: 0.06rem;
+        width: 0.6rem;
+        height: 0.6rem; }
+    section .nav a.active {
+      border-bottom: 1px solid lime;
+      color: lime; }
+  section .store-info {
+    height: 0.6rem;
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.1rem; }
+    section .store-info .store-info-text h3 {
+      font-size: 0.16rem; }
+    section .store-info .store-info-text p {
+      display: flex;
+      font-size: 0.12rem; }
+      section .store-info .store-info-text p span {
+        margin-right: 0.05rem;
+        color:#000;
+        margin-bottom: 0.05rem;
+      }
+    section .store-info .store-info-focus p {
+      font-size: 0.14rem;
+      color: #666; }
+    section .store-info .store-info-focus a {
+      color:gray;
+      width: 0.74rem;
+      height: 0.26rem;
+      line-height: 0.26rem;
+      display: block;
+      margin: 0.05rem auto 0;
+      text-align: center;
+      font-size: 0.12rem;
+      border-radius: 0.13rem;
+      background: lime; }
+  section .thems .thems-tit {
+    padding-left: 0.1rem;
+    font-size: 0.14rem;
+    line-height: 0.4rem; }
+  section .thems .banne {
+    width: 3.4rem;
+    height: 1.18rem;
+    margin: 0 auto; }
+    section .thems .banne img {
+      width: 3.4rem;
+      height: 1.18rem; }
+  section .thems .fruit-list {
+    display: flex;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; }
+    section .thems .fruit-list .item {
+      width: calc(33% - 0.1rem);
+      padding-left: 0.1rem; }
+      section .thems .fruit-list .item .img-box {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 auto; }
+      section .thems .fruit-list .item h3 {
+        font-size: 0.12rem; }
+      section .thems .fruit-list .item p {
+        font-size: 0.12rem;
+        color: #666;
+        margin-bottom: 0.1rem; }
+      section .thems .fruit-list .item .price {
+        display: flex;
+        justify-content: space-between; }
+        section .thems .fruit-list .item .price span {
+          font-size: 0.12rem;
+          color: orangered; }
+          section .thems .fruit-list .item .price span em, section .thems .fruit-list .item .price .guess .guess-content .guess-content-item .item-text .sku .sku-detail span i, section .guess .guess-content .guess-content-item .item-text .sku .sku-detail .thems .fruit-list .item .price span i {
+            font-style: normal;
+            font-size: 0.16rem;
+            color: orangered; }
+        section .thems .fruit-list .item .price a img {
+          width: 0.2rem;
+          height: 0.2rem; }
+  section .guess {
+    margin-top: 0.2rem; }
+    section .guess .guess-tit {
+      line-height: 0.4rem;
+      font-size: 0.14rem;
+      padding-left: 0.1rem; }
+    section .guess .guess-content .guess-content-item {
+      padding-bottom: 0.2rem;
+      display: flex; }
+      section .guess .guess-content .guess-content-item .img-box {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 0.1rem; }
+        section .guess .guess-content .guess-content-item .img-box img {
+          width: 100%;
+          height: 100%; }
+      section .guess .guess-content .guess-content-item .item-text h3 {
+        font-size: 0.16rem;
+        margin-bottom: 0.1rem; }
+      section .guess .guess-content .guess-content-item .item-text > p {
+        background: orangered;
+        color: white;
+        font-size: 0.12rem;
+        width: 0.75rem;
+        white-space: nowrap; }
+      section .guess .guess-content .guess-content-item .item-text .spec {
+        margin-top: 0.2rem;
+        display: flex;
+        justify-content: space-between; }
+        section .guess .guess-content .guess-content-item .item-text .spec .spec-attr h4, section .guess .guess-content .guess-content-item .item-text .spec .des h4 {
+          font-size: 0.14rem; }
+        section .guess .guess-content .guess-content-item .item-text .spec .spec-attr p, section .guess .guess-content .guess-content-item .item-text .spec .des p {
+          font-size: 0.12rem;
+          color: gray; }
+      section .guess .guess-content .guess-content-item .item-text .sku {
+        position: relative;
+        margin-top: 0.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        section .guess .guess-content .guess-content-item .item-text .sku .sku-detail p {
+          font-size: 0.12rem;
+          color: gray; }
+        section .guess .guess-content .guess-content-item .item-text .sku .sku-detail span {
+          display: flex;
+          align-items: center; }
+          section .guess .guess-content .guess-content-item .item-text .sku .sku-detail span em, section .guess .guess-content .guess-content-item .item-text .sku .sku-detail span i {
+            font-style: normal;
+            font-size: 0.16rem;
+            color: orangered; }
+          section .guess .guess-content .guess-content-item .item-text .sku .sku-detail span i {
+            font-size: 0.12rem;
+            color: gray; }
+        section .guess .guess-content .guess-content-item .item-text .sku a {
+          position: absolute;
+          right: -1.06rem;
+          bottom: -0.06rem;
+          width: 0.2rem;
+          height: 0.2rem; }
+          section .guess .guess-content .guess-content-item .item-text .sku a img {
+            width: 0.2rem;
+            height: 0.2rem; }
+
+/*# sourceMappingURL=superMarket.css.map */

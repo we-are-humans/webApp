@@ -1,0 +1,121 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body,html{
+  height: 100%;
+}
+body{
+  font-family:"微软雅黑";
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  width: 100%;
+  height: .52rem;
+  background: #08caff;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+header h3{
+  color: white;
+  font-size: .16rem;
+  line-height: .16rem;
+  margin-left: 1.7rem;
+}
+header a .icon-sousuo{
+  color:white ;
+  font-size:.3rem ;
+  line-height: .3rem;
+  padding-left: 1.25rem;
+}
+/*banner*/
+.banner{
+  width: 100%;
+  margin-top: .08rem;
+}
+.banner a img{
+  width: 3.59rem;
+  height: 1.13rem;
+  margin: 0 auto;
+}
+/*clsList*/
+.clsList{
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+  margin: .33rem .31rem 0 .33rem;
+}
+.clsList a{
+  -webkit-flex: 1;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  margin-bottom: .3rem;
+}
+.clsList a img{
+  width:.8rem ;
+  height:.56rem ;
+}
+.clsList a span{
+  color:#121112 ;
+  font-size: .15rem;
+  line-height: .15rem;
+  margin-top: .12rem;
+}
+/*footer*/
+footer{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  height: .78rem;
+  background: white;
+  border-top: 1px solid #e7e7e7;
+  -webkit-justify-content: space-around;
+}
+footer a{
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+}
+footer a span:nth-child(1){
+  color: #313031;
+  font-size: .3rem;
+  line-height: .3rem;
+}
+footer a span:nth-child(2){
+  color: #a5a6a5;
+  font-size: .14rem;
+  line-height:.14rem ;
+  margin-top:.08rem ;
+}
+footer .icon-hemalogo--{
+  padding: .03rem;
+  border: 1px solid #313031;
+  border-radius: 50%;
+}
+footer a:hover span{
+  color: #08c3ff;
+}
+footer a:first-child:hover span:first-child{
+  border:1px solid #08c3ff;
+}
+.content{
+  -webkit-flex: 1;
+  overflow-y: auto;
+}

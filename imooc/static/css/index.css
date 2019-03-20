@@ -1,0 +1,227 @@
+header{
+    /* height:1.01rem; */
+}
+.hTop{
+    display:-webkit-flex;
+    -webkit-justify-content:space-between;
+    -webkit-align-items:center;
+    height:.6rem;
+    padding:0 .13rem;
+    background:white;
+
+}
+.hTop img{
+    width:.79rem;
+    height:.24rem;
+}
+.search{
+    display:-webkit-flex;
+    -webkit-align-items:center;
+}
+.search img{
+    width:.2rem;
+    height:.2rem;
+    margin-right:.13rem;
+}
+.login{
+    width:1.23rem;
+    height:.3rem;
+    background:#fef0ef;
+    border-radius:.15rem;
+    color:#fac4c4;
+    line-height:.3rem;
+    
+    text-align:center;
+    
+    font-size:.12rem;
+}
+.down,.log{
+    font-size:.11rem;
+    line-height:.11rem;
+    color:#e51b1b;
+    font-weight:bold;
+}
+.down{
+    margin-right:.11rem;
+}
+.log{
+    margin-left:.09rem;
+}
+/* 头部导航 */
+.hNav{
+    height:.4rem;
+    display:-webkit-flex;
+    position:relative;
+    top:.01rem;
+    background:white;
+}
+.hNav a{
+    font-size:.15rem;
+    color:#73767f;
+    -webkit-flex:1;
+    line-height:.4rem; 
+    text-align:center;
+    
+}
+
+.hNav a:hover{
+    color:#e51b1b;
+    background:url(/static/img/underline.png) bottom center no-repeat;
+    background-size:.07rem .04rem;
+}
+section{
+    flex:1;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+/* 轮播图 */
+.swiper-container{
+    height:1.28rem;
+    background:white;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom:-.07rem;
+}
+.swiper-pagination-bullet{
+    background:white;
+    opacity:.4;
+}
+.swiper-slide a img{
+    height:1.11rem;
+    width:3.5rem;
+    border-radius:.1rem;
+    margin:.08rem auto;
+}
+/* 实战推荐 */
+.actrul{
+    margin-top:.07rem;
+    background:white;
+    padding-bottom:.1rem;
+}
+
+.actTit{
+    height:.6rem;
+    background:url(/static/img/title-bg-1.png) left no-repeat;
+    background-size:1rem 0.3rem;;
+    margin:0  .14rem;
+    display:-webkit-flex;
+    -webkit-align-items:center;
+    -webkit-justify-content:space-between;
+}
+.actTit h1{
+    font-size:.15rem;
+    color:#2e353b;
+    margin-left:.07rem;
+}
+.actTit a{
+    font-size: .07rem;
+    color:#b6bbbf;
+}
+.actTit a img{
+    display:inline-block;
+    width:.06rem;
+    height: .09rem;
+    margin-left:.11rem;
+    margin-right:.05rem;
+    vertical-align: middle;
+}
+.actContent{
+    padding:0 .14rem;
+}
+.actCourse{
+    display:-webkit-flex;
+    height:.6rem;
+    -webkit-align-items:center;
+    padding-bottom:.19rem;
+
+}
+
+.actCourse img{
+    width:.87rem;
+    height:.6rem;
+    border-radius: .08rem;
+
+}
+.couDes{
+    width:1.49rem;
+    margin:0 .14rem 0 .11rem;
+}
+.couTit{
+    font-size: .14rem;
+    color:#2c363f;
+    line-height:.21rem;
+}
+.couInfo{
+    font-size: .11rem;
+    color:#2c363f;
+    line-height:.17rem;
+}
+.couInfo span{
+    font-size:.09rem;
+    color:#7b7e83;
+    margin-right:.14rem;
+}
+.couInfo span img{
+    display:inline-block;
+    width:.1rem;
+    height:.11rem;
+    margin-left:.14rem;
+    vertical-align:middle;
+}
+.price{
+    width:.7rem;
+    height:.31rem;
+    background:#f1f3f2;
+    line-height:.31rem;
+    text-align:center;
+    border-radius:.31rem;
+}
+.price span{
+    font-size:.09rem;
+    color:#7b7e83;
+    display:block;
+}
+.lookMore{
+    font-size:.11rem;
+    color:#3b77f1;
+    text-align:center;
+    line-height:.42rem;
+}
+
+/* 就业班 */
+.courseCon{
+    padding:0 .14rem;
+    display:-webkit-flex;
+    -webkit-flex-wrap:wrap;
+}
+.jobtit{
+    margin-right:.38rem;
+}
+.courseCon img{
+    width:1.7rem;
+    height:.8rem;
+    display:block;
+}
+/* 慕课专栏 */
+.speciCon{
+    height:1.43rem;
+}
+
+/* 新上好课 */
+.new{
+    font-size:.11rem;
+    background:#f01414;
+    color:white;
+    width:.2rem;
+    height:.2rem;
+    text-align:center;
+    line-height:.2rem;
+    border-top-left-radius: .08rem;
+    position:relative;
+    top:-.2rem;
+    left:-.87rem;
+}
+.newCourse{
+    padding-bottom:0;
+}

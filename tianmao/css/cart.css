@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: 0;
+  outline: 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  display: block; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0.1rem; }
+  header .market {
+    font-size: 0.14rem;
+    color: gray;
+    background: url("../img/16.png") no-repeat;
+    background-size: 0.2rem 0.2rem;
+    padding-left: 0.22rem; }
+  header .search {
+    font-size: 0.14rem;
+    color: gray;
+    background: url("../img/17.png") no-repeat;
+    background-size: 0.22rem 0.22rem;
+    padding-left: 0.24rem; }
+  header .category {
+    padding-top: 0.15rem;
+    font-size: 0.12rem;
+    color: red;
+    background: url("../img/18.png") no-repeat;
+    background-size: 0.15rem 0.12rem;
+    background-position: 50% 10%; }
+
+i, em {
+  font-style: normal; }
+
+.shopping {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #dedede; }
+  .shopping .shop-group-item {
+    background: #fff; }
+    .shopping .shop-group-item .shop-name {
+      height: 0.6rem;
+      display: flex; }
+      .shopping .shop-group-item .shop-name .input-box {
+        width: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .shopping .shop-group-item .shop-name .input-box input {
+          width: 0.2rem;
+          height: 0.2rem;
+          background: #ff0036; }
+      .shopping .shop-group-item .shop-name .name h2 {
+        margin-top: 0.1rem;
+        font-size: 0.16rem;
+        display: flex;
+        align-items: center; }
+        .shopping .shop-group-item .shop-name .name h2 span {
+          font-size: 0.14rem;
+          color: gray; }
+    .shopping .shop-group-item .goods-list .goods-item {
+      height: 1rem;
+      border: 1px solid #dedede;
+      display: flex; }
+      .shopping .shop-group-item .goods-list .goods-item .goods-check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0.4rem; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-check input {
+          width: 0.25rem;
+          height: 0.2rem;
+          border-radius: 50%;
+          background: #ff0036; }
+      .shopping .shop-group-item .goods-list .goods-item .goods-text {
+        display: flex;
+        align-items: center; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-img-box {
+          width: 0.58rem;
+          height: 0.58rem; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content {
+          padding-left: 0.1rem;
+          padding-right: 0.2rem;
+          width: 1.85rem;
+          margin-top: 0.05rem; }
+          .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content h2 {
+            font-size: 0.14rem;
+            margin-bottom: 0.05rem; }
+          .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content p {
+            display: flex;
+            font-size: 0.1rem; }
+            .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content p .reduce, .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content p .plus, .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content p input {
+              width: 0.25rem;
+              height: 0.25rem;
+              text-align: center;
+              line-height: 0.25rem;
+              border: 1px solid #dedede; }
+            .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-content p input {
+              background: white; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-order p {
+          font-size: 0.14rem;
+          color: gray; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-order h1 {
+          display: flex;
+          color: gray;
+          font-size: 0.14rem;
+          margin: 0.05rem 0; }
+          .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-order h1 em {
+            color: #000; }
+        .shopping .shop-group-item .goods-list .goods-item .goods-text .goods-order a img {
+          width: 0.16rem;
+          height: 0.18rem;
+          margin: 0 auto; }
+
+footer {
+  width: 100%;
+  height: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex; }
+  footer .input-box {
+    width: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .input-box input {
+      width: 0.2rem;
+      height: 0.2rem; }
+  footer .compute {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .compute .total h1 {
+      font-size: 0.12rem;
+      margin-bottom: 0.03rem; }
+    footer .compute .total p {
+      font-size: 0.12rem; }
+      footer .compute .total p span {
+        color: red; }
+    footer .compute a {
+      height: 0.3rem;
+      line-height: 0.3rem;
+      color: white;
+      background: red;
+      padding: 0 0.1rem;
+      font-size: 0.14rem; }
+
+/*# sourceMappingURL=cart.css.map */

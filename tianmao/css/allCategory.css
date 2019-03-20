@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: 0;
+  outline: 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  display: block; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 0.4rem;
+  background: rgba(238, 238, 238, 0.3);
+  display: flex;
+  align-items: center; }
+  header h3 {
+    font-size: 0.16rem;
+    padding-left: 0.1rem;
+    font-weight: 100; }
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  section ul {
+    width: 0.8rem;
+    background: #eeeeee;
+    position: relative; }
+    section ul li.active {
+      background: #fff; }
+    section ul li {
+      padding-left: 0.1rem;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      border-bottom: 1px solid #dedede; }
+      section ul li h3 {
+        font-size: 0.16rem;
+        color: gray;
+        font-weight: 100; }
+      section ul li .content {
+        display: none;
+        width: 2.95rem;
+        position: absolute;
+        left: 0.8rem;
+        top: 0; }
+        section ul li .content .item .item-tit {
+          height: 0.5rem; }
+          section ul li .content .item .item-tit h4 {
+            font-size: 0.14rem;
+            color: gray;
+            padding-left: 0.1rem; }
+        section ul li .content .item .item-content {
+          display: flex;
+          padding: 0 0.05rem;
+          flex-wrap: wrap;
+          align-items: flex-start; }
+          section ul li .content .item .item-content a {
+            margin: 0.03rem 0;
+            flex-shrink: 0;
+            width: 33%;
+            text-align: center; }
+            section ul li .content .item .item-content a img {
+              width: 0.67rem;
+              height: 0.67rem;
+              margin: 0 auto 0.05rem; }
+            section ul li .content .item .item-content a span {
+              display: block;
+              font-size: 0.14rem;
+              line-height: 0.14rem;
+              color: gray; }
+
+/*# sourceMappingURL=allCategory.css.map */

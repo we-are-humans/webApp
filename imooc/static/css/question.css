@@ -1,0 +1,116 @@
+header{
+    height:1rem;
+    background:white;
+}
+section{
+    overflow-y:auto;
+    background:#f4f5f7;
+    -webkit-flex:1;
+}
+.commendSort{
+    padding:0 .15rem .13rem;
+    background:white;
+    margin-bottom:.08rem;
+}
+.titBox{
+    display:-webkit-flex;
+    -webkit-align-items:center;
+    -webkit-justify-content:space-between;
+    margin-bottom:.09rem;
+    height:.43rem;
+}
+.tit{
+    font-size:.13rem;
+    color:#2b343b;
+}
+.sortAll{
+    font-size:.11rem;
+    color:#7c7f84;
+}
+.sortAll img{
+    width:.07rem;
+    height:.11rem;
+    margin-left:.13rem;
+    margin-right:.09rem;
+    display:inline-block;
+}
+.comBox{
+    display:-webkit-flex;
+    -webkit-flex-wrap:wrap;
+}
+.item{
+    width:.7rem;
+    height:.3rem;
+    line-height:.3rem;
+    text-align:center;
+    border:2px solid #b9babe;
+    border-radius:.03rem;
+    font-size:.09rem;
+    color:#b9babe;
+    margin:0 .05rem .1rem;
+}
+
+
+/* 问题部分 */
+.quesBox{
+    background:white;
+    /* padding:0 .15rem; */
+}
+.nav{
+    border-bottom:2px solid #dbdce0;
+    display:-webkit-flex;
+    -webkit-justify-content:space-around;
+}
+.nav a{
+    font-size:.13rem;
+    line-height:.13rem;
+    color:#616161;
+    padding:.14rem 0 .13rem 0;    
+}
+.nav a:hover{
+    border-bottom:.01rem solid #ff2d50;
+}
+.quseCon{
+    padding:0 .15rem;
+}
+.quesItem{
+    padding:.15rem  0  .25rem 0;
+    border-bottom:2px solid #dfe2e7;
+    display:-webkit-flex;
+}
+.quesItem img{
+    width:.35rem;
+    height:.35rem;
+    margin-right:.1rem;
+}
+.quseShow{
+
+}
+.from{
+    font-size:.1rem;
+    height:.15rem;
+    color:#babdc2;
+}
+.sort{
+    margin-right:.15rem;
+    height:.15rem;
+}
+.them{
+    font-size:.13rem;
+    color:black;
+    line-height:.2rem;
+    margin-bottom:.07rem;
+    font-weight:normal;
+}
+.most{
+    font-size:.13rem;
+    color:#babdc2;
+    line-height:.23rem;
+    margin-bottom:.07rem;
+}
+.idea{
+    font-size:.13rem;
+    color:#76797e;
+    line-height:.15rem;
+    
+}

@@ -1,0 +1,146 @@
+
+
+/* 筛选框 */
+.filter{
+   
+    border-top: solid 1px #e3e3e3;
+    background: #fff;
+}
+.filter .tab {
+    height: 40px;
+    border-bottom: solid 1px #e3e3e3;
+}
+.filter .tab li {
+   
+    float: left;
+    height: 40px;
+    width: 33%;
+    text-align: center;
+    line-height: 40px;
+    color: #666;
+    border-right: solid 1px #e3e3e3;
+}
+.filter .tab li .icon-arrow{
+    height: 6px;
+    width: 6px;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    content: ' ';
+    transform: rotate(45deg);
+    margin-bottom: 3px;
+    border-bottom: solid 1px #666;
+    border-right: solid 1px #666;
+}
+.filter .tab .no-border{
+    border: 0;
+}
+/* sjs-list */
+.sjs-list{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.sjs-list .info-box {
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px #f1f1f1 solid;
+    overflow: hidden;
+}
+.sjs-list .head {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px #f1f1f1 solid;
+    float: left;
+    margin-bottom: 15px;
+}
+.sjs-list .name {
+    float: left;
+    margin-left: 10px;
+    height: 20px;
+}
+.sjs-list .name p {
+    max-width: 95px;
+    font-size: 16px;
+    float: left;
+    line-height: 20px;
+}
+.sjs-list .name em {
+    width: 32px;
+    height: 16px;
+    display: inline-block;
+    background: url(../img/icon_sjs_title.png) no-repeat;
+    background-size: 100%,auto;
+
+    margin: 2px 0 0 2px;
+}
+.sjs-list .name .icon-zm{
+    background-position: 0 0;
+}
+.sjs-list .name .icon-rz-qy{
+   
+    background-position: 0 -80px;
+}
+.sjs-list .city {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    color: #999;
+}
+.sjs-list .price {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.sjs-list .price .numb {
+    max-width: 90px;
+    color: #dd4f50;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.sjs-list .case-pic {
+    padding-left: 10px;
+    width: 100%;
+}
+.sjs-list .case-pic a {
+    width: 31%;
+    margin: 0 5px 0 0;
+    padding: 0;
+    float: left;
+}
+.sjs-list .case-pic img{
+    width: 100%;
+}
+/* 分页 */
+.page {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px #f1f1f1 solid;
+    background: #fff;
+}
+.page li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+.page li:first-child{
+    text-align: right;
+}
+.page li .active {
+    color: #999;
+}
+.page li:last-child{
+    text-align: left;
+}
+.page li .links {
+    color: #dd4f50;
+}

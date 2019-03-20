@@ -1,0 +1,49 @@
+header{
+    height:1rem;
+    background:white;
+}
+section{
+    overflow-y:auto;
+    -webkit-flex:1;
+}
+.conBox{
+    box-sizing:border-box;
+    padding:.12rem .15rem ;
+    /* overflow-x: hidden; */
+    /* width:100%; */
+}
+.conOne{
+    background:white;
+    padding:.14rem;
+    margin-bottom:.1rem;
+    
+    display: -webkit-flex;
+    border-radius: .03rem;
+    -webkit-align-items:center;
+}
+.leftCon{
+
+}
+.leftCon h1{
+    font-size:.14rem;
+    color:black;
+    
+}
+.leftCon p{
+    font-size: .09rem;
+    color:#858587;
+    line-height:.16rem;
+    width:1.97rem;
+    margin-top:.04rem;
+    margin-right:.27rem;
+    
+}
+.leftCon .detail{
+    line-height:.19rem;
+}
+.jobListImg{
+    width:.7rem;
+    height:.7rem;
+    
+
+}

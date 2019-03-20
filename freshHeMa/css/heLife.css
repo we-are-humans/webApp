@@ -1,0 +1,224 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body,html{
+   height: 100%;
+ }
+body{
+  font-family:"微软雅黑";
+  background: #f7f7f7;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .52rem;
+  background: #10c3ff;
+}
+header h3{
+  color:white ;
+  font-size: .15rem;
+  line-height:.52rem ;
+  text-align: center;
+  font-weight: 100;
+}
+/*nav*/
+nav{
+  height:.5rem ;
+  background: white;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+nav a{
+  -webkit-align-items: center;
+}
+nav a span:nth-child(2){
+  color: #272627;
+  font-size:.15rem ;
+  line-height: .21rem;
+  border-right: 1px solid #ededed;
+}
+nav a:nth-child(2){
+  padding-left: .6rem;
+}
+nav a:nth-child(1) span:nth-child(2){
+  padding-right: .66rem;
+  margin-left: .07rem;
+}
+nav a:nth-child(2) span:nth-child(2){
+  margin-left: .07rem;
+}
+nav a:nth-child(1) span:nth-child(1),nav a:nth-child(2) span:nth-child(1){
+  color:white ;
+  font-size:.17rem ;
+  line-height:.17rem ;
+  padding: .03rem;
+  background: #ffbe29;
+  border-radius: 50%;
+}
+nav a:nth-child(2) span:nth-child(1){
+  background: #31c3ff;
+}
+/*invitation*/
+.invitation{
+  width: 100%;
+}
+.heBox{
+  margin:.2rem .13rem 0;
+}
+.title{
+  display: -webkit-flex;
+  margin-bottom: .15rem;
+  -webkit-align-items: center;
+}
+.title h3{
+  color: #151615;
+  font-size: .17rem;
+  line-height: .16rem;
+  border-right: 1px solid #dadcda;
+  padding-right: .07rem;
+}
+.title p{
+  color:#0095ff ;
+  font-size:.13rem ;
+  line-height: .1rem;
+  padding-left: .07rem;
+}
+.xian{
+  background: white;
+  border-radius: .05rem;
+  padding-bottom: .12rem;
+}
+.xian h3{
+  color:#2b292b ;
+  font-size:.11rem ;
+  line-height: .11rem;
+  padding:.15rem 0 .12rem .11rem;
+}
+.qun{
+  display: -webkit-flex;
+  border-top: 1px solid #f5f0f5;
+  -webkit-align-items: center;
+}
+.qun a{
+  -webkit-align-items: center;
+}
+.qun a:nth-child(1) img{
+  width:.42rem ;
+  height:.42rem ;
+  border-radius: 50%;
+  padding: .1rem .12rem .18rem;
+}
+.qun a:nth-child(1) span{
+  color: #2c2a2c;
+  font-size: .16rem;
+  line-height: .16rem;
+}
+.qun a:nth-child(2){
+  color: white;
+  font-size:.12rem ;
+  line-height: .12rem;
+  padding:.07rem .06rem ;
+  background:#0ebaff ;
+  border-radius: .12rem;
+  margin-left: .75rem;
+}
+.xian p{
+  color: #8f8e8f;
+  font-size:.13rem ;
+  line-height: .15rem;
+  margin-left: .12rem;
+}
+.hot{
+  margin: .2rem .13rem 0;
+}
+.eat{
+  background: white;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  padding-bottom: .12rem;
+  border-radius: .04rem;
+  margin-bottom: .1rem;
+}
+.eat a:nth-child(1){
+  -webkit-align-items: center;
+  margin-top: .17rem;
+  margin-left: .12rem;
+}
+.eat a:nth-child(1) .icon-remenhuati-{
+  color:white ;
+  background: #73cfff;
+  font-size: .19rem;
+  line-height:.19rem ;
+  border-radius: 50%;
+}
+.eat a:nth-child(1) h3{
+  color: #121112;
+  font-size: .15rem;
+  line-height:.15rem ;
+  margin-left: .1rem;
+}
+.eat a:nth-child(2) img{
+  width:3.25rem ;
+  height:1.4rem ;
+  border-radius: .04rem;
+  margin-left: .13rem;
+  margin-top: .11rem;
+}
+/*footer*/
+footer{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  height: .78rem;
+  background: white;
+  border-top: 1px solid #e7e7e7;
+  -webkit-justify-content: space-around;
+}
+footer a{
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+}
+footer a span:nth-child(1){
+  color: #313031;
+  font-size: .3rem;
+  line-height: .3rem;
+}
+footer a span:nth-child(2){
+  color: #a5a6a5;
+  font-size: .14rem;
+  line-height:.14rem ;
+  margin-top:.08rem ;
+}
+footer .icon-hemalogo--{
+  padding: .03rem;
+  border: 1px solid #313031;
+  border-radius: 50%;
+}
+footer a:hover span{
+  color: #08c3ff;
+}
+footer a:first-child:hover span:first-child{
+  border:1px solid #08c3ff;
+}
+.life{
+  -webkit-flex: 1;
+  overflow-y: auto;
+}

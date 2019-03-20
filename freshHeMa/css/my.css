@@ -1,0 +1,334 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body,html{
+  height: 100%;
+}
+body{
+  font-family:"微软雅黑";
+  background: #f7f7f7;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .9rem;
+  background: #08b2ff;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+}
+header a span{
+  display: block;
+}
+header a .iconfont{
+  color: white;
+  font-size: .22rem;
+  line-height: .22rem;
+  margin-left: .19rem;
+  margin-top: .08rem;
+}
+header a img{
+  width: .24rem;
+  height: .23rem;
+  margin-right: .13rem;
+  margin-top: .08rem;
+}
+/*view*/
+.view{
+  background: white;
+  margin: -.33rem .13rem 0;
+  border-top-left-radius: .06rem;
+  border-top-right-radius: .06rem;
+}
+.view_top{
+  display:-webkit-flex;
+  -webkit-align-items: center;
+}
+.view_top a img{
+  width: .63rem;
+  height:.63rem ;
+  border-radius: 50%;
+  margin-top: -.1rem;
+  margin-left: .13rem;
+}
+.view_top h3{
+  color: #0eccff;
+  font-size: .13rem;
+  line-height: .13rem;
+  margin-left: .15rem;
+}
+.view_top a:nth-child(3) .icon-saoyisao,.view_top a:nth-child(4) .icon-erweima{
+  color:#00c5ff ;
+  font-size: .24rem;
+  line-height: .24rem;
+}
+.view_top a:nth-child(3) .icon-saoyisao{
+  margin-left: 1.25rem;
+  margin-right: .25rem;
+}
+.view_bot{
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+}
+.view_bot a{
+  -webkit-flex-direction: column;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+}
+.view_bot a span:nth-child(1){
+  color:#121112 ;
+  font-size:.15rem ;
+  line-height: .15rem;
+  margin-top: .17rem;
+  margin-bottom: .07rem;
+}
+.view_bot a span:nth-child(2){
+  color:#939093 ;
+  font-size: .12rem;
+  line-height: .12rem;
+  margin-bottom: .13rem;
+}
+.spans{
+  display: block;
+  height: .06rem;
+  width:3.49rem;
+  background:#08cbff ;
+  border-bottom-left-radius: .06rem;
+  border-bottom-right-radius: .06rem;
+  margin-left: .13rem;
+  margin-bottom: .19rem;
+}
+/*order*/
+.order{
+  background: white;
+  padding-bottom: .13rem;
+  margin-bottom: .1rem;
+}
+.order-t{
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  margin: 0 .12rem;
+  border-bottom: 1px solid #ededed;
+}
+.order-t h3{
+  color:#0c0b0c ;
+  font-size:.14rem ;
+  line-height: .14rem;
+  margin-left: .13rem;
+  margin-top: .14rem;
+  margin-bottom: .13rem;
+}
+.order-t a{
+  -webkit-align-items: center;
+  margin-top: .14rem;
+  margin-bottom: .13rem;
+}
+.order-t a span:nth-child(1){
+  color:#9b979b ;
+  font-size: .12rem;
+  line-height:.12rem ;
+}
+.order-t a .icon-jiantou{
+  color: #c5c7c5;
+  font-size:.1rem ;
+  line-height: .1rem;
+  margin-left: .05rem;
+  margin-right: .12rem;
+}
+.order-b{
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+  margin-top: .19rem;
+}
+.order-b a{
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  width: 25%;
+}
+.order-b a .iconfont{
+  color:#08c7ff ;
+  font-size:.24rem ;
+  line-height:.24rem ;
+}
+.order-b a span:nth-child(2){
+  color:#9f9c9f ;
+  font-size:.11rem ;
+  line-height: .11rem;
+  margin-top: .08rem;
+}
+/*tool*/
+.tool{
+  background: white;
+  padding-bottom: .13rem;
+}
+.tool .order-b a img{
+  width: .3rem;
+  height:.27rem ;
+}
+.tool .order-b a:nth-child(1) span:last-child{
+  color: #ff651a;
+  font-size: .1rem;
+  line-height: .1rem;
+  margin-top: .06rem;
+}
+.tool .order-b a:last-child span:last-child{
+  color: #ff651a;
+  font-size: .1rem;
+  line-height: .1rem;
+  margin-top: .06rem;
+}
+.tool .order-b a:last-child{
+  margin-top: .19rem;
+}
+/*banner*/
+.banner img{
+  width: 3.52rem;
+  height: .75rem;
+  margin:.09rem .12rem 0;
+  border-radius: .05rem;
+}
+/*like*/
+.three{
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}
+.three .four{
+  width: .25rem;
+  height: .01rem;
+  margin-top: .25rem;
+  margin-left: .02rem;
+}
+.three .five{
+  width: .25rem;
+  height: .01rem;
+  margin-top:.25rem ;
+  margin-right:.04rem ;
+}
+.three h3{
+  color:#111111 ;
+  font-size: .13rem;
+  line-height:.14rem ;
+  margin-bottom:.1rem ;
+  margin-top: .21rem;
+  padding-right: .04rem;
+}
+.three h3 span{
+  color: #71b5f7;
+}
+.guess{
+  display: -webkit-flex;
+  background: white;
+}
+.guess .can_right:nth-child(2n+1){
+  margin-right: .03rem;
+}
+.guess .can_right{
+  display: -webkit-flex;
+  margin-bottom: .03rem;
+  position: relative;
+}
+.can1 a img{
+  width: .83rem;
+  height: .64rem;
+  margin-left: .25rem;
+  margin-right: .27rem;
+  margin-top: .34rem;
+}
+.can2{
+  border-bottom: 1px solid #ededed;
+  padding-right: .15rem;
+}
+.can2 h3{
+  color: #313031;
+  width: 1.39rem;
+  font-size: .14rem;
+  line-height: .17rem;
+  margin-top: .22rem;
+  padding-bottom: .1rem;
+}
+.can2 p:nth-child(2){
+  color: #9e9c9e;
+  font-size: .12rem;
+  line-height: .12rem;
+  margin-bottom: .44rem;
+}
+.can2 .money{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+.can2 .money p{
+  color: #ff5152;
+  font-size:.14rem ;
+  line-height: .14rem;
+}
+.can2 .money p span{
+  color: #cecfce;
+}
+.can2 .money .icon-gouwuche{
+  color: white;
+  font-size:.21rem ;
+  line-height:.21rem ;
+  padding: .08rem .07rem .07rem .06rem;
+  background: #08aeff;
+  border-radius: 50%;
+  margin-left: 1.05rem;
+  margin-bottom: .11rem;
+}
+/*footer*/
+footer{
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  height: .78rem;
+  background: white;
+  border-top: 1px solid #e7e7e7;
+  -webkit-justify-content: space-around;
+}
+footer a{
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+}
+footer a span:nth-child(1){
+  color: #313031;
+  font-size: .3rem;
+  line-height: .3rem;
+}
+footer a span:nth-child(2){
+  color: #a5a6a5;
+  font-size: .14rem;
+  line-height:.14rem ;
+  margin-top:.08rem ;
+}
+footer .icon-hemalogo--{
+  padding: .03rem;
+  border: 1px solid #313031;
+  border-radius: 50%;
+}
+footer a:hover span{
+  color: #08c3ff;
+}
+footer a:first-child:hover span:first-child{
+  border:1px solid #08c3ff;
+}
+.hemaMy{
+  -webkit-flex: 1;
+  overflow-y: auto;
+}

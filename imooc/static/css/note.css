@@ -1,0 +1,78 @@
+header{
+    height:1rem;
+    background:white;
+}
+section{
+    -webkit-flex:1;
+    overflow-y:auto;
+    background:white;
+    
+}
+.swiper{
+    background:white;
+    height:1.09rem;
+}
+.nav{
+    /* height:.38rem; */
+    overflow-x:auto;
+    background:white;
+    display:-webkit-flex;
+    border-bottom:2px solid #c2c2c2;
+}
+.nav a{
+    font-size:.13rem;
+    color:black;
+    -webkit-flex-shrink:0;
+    padding:.12rem .15rem;    
+}
+.nav a:hover{
+    background:url(../img/underline.png)  no-repeat;
+    background-position:center .3rem;
+    background-size:.15rem .03rem;
+}
+
+.listBox{
+    padding:.1rem .18rem 0 .2rem;
+}
+.listCon{
+    border-bottom:1px solid #c2c2c2;
+    display:-webkit-flex;
+    padding:.22rem 0;
+    -webkit-justify-content:space-between;
+}
+.listL{
+
+}
+.tit{
+    font-size:.15rem;
+    color:black;
+    line-height:.23rem;
+}
+.des{
+    font-size:.11rem;
+    line-height:.23rem;
+    color:#343b43;
+}
+.name{
+    margin-right:.06rem;
+}
+.pos{
+   margin-left:.05rem;
+}
+.priceBox{
+    font-size:.1rem;
+    line-height:.23rem;
+    color:#818489;
+}
+.price{
+    color:#3878f6;
+    margin-right:.2rem;
+}
+.time{
+
+}
+.listR{
+    width:.69rem;
+    height:.7rem;
+    border-radius:.03rem;
+}

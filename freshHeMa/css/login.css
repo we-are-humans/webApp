@@ -1,0 +1,124 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+/*body,html{*/
+  /*height: 100%;*/
+/*}*/
+body{
+  font-family:"微软雅黑";
+  /*display: -webkit-flex;*/
+  /*-webkit-flex-direction: column;*/
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  display: -webkit-flex;
+}
+img{
+  border:none;
+  display: block;
+}
+/*header*/
+header{
+  height: .55rem;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+header a .icon-back{
+  color: #191d19;
+  font-size: .2rem;
+  line-height:.2rem ;
+  margin-left: .24rem;
+}
+/*thead*/
+.thead{
+  width: 100%;
+  margin-top: .27rem;
+}
+.thead .imgAge{
+  width:.7rem ;
+  height: .7rem;
+  margin: 0 auto;
+}
+.theadBox{
+  margin:0 .2rem;
+}
+.thead .userName{
+  display: -webkit-flex;
+  width: 2.89rem;
+  height:.31rem ;
+  color: #b1b0b1;
+  font-size:.15rem ;
+  padding-left:.46rem ;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ff4000;
+  margin-top: .15rem;
+}
+.password{
+  display: -webkit-flex;
+  -webkit-align-items:center ;
+  position: relative;
+  margin-top: .35rem;
+}
+.password .icon-mimayanjingguanbi{
+  color:#9c9b9c ;
+  font-size:.3rem ;
+  line-height: .3rem;
+  position: absolute;
+  top: .01rem;
+  left:.08rem;
+}
+.password .psw{
+  color: #acadac;
+  font-size: .15rem;
+  line-height: .15rem;
+  padding-left:.47rem ;
+  height: .31rem;
+  width: 3.35rem;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #ff4000;
+}
+.password .forget{
+  color:#4f4f4f ;
+  font-size:.14rem ;
+  line-height:.14rem ;
+  position: absolute;
+  top:.08rem;
+  left:2.7rem;
+  /*padding-left: 1.43rem;*/
+}
+.commit input{
+  display:-webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  width: 3.34rem;
+  height: .46rem;
+  background:#ffbe7b ;
+  font-size:.16rem ;
+  line-height: .16rem;
+  color: #ffd1a8;
+  border-radius: .2rem;
+  border: none;
+  outline: none;
+  margin-top: .39rem;
+}
+.reg{
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+}
+.reg a:nth-child(1),.reg a:nth-child(2){
+  color:#464846 ;
+  font-size: .15rem;
+  line-height:.15rem ;
+  margin-top: .24rem;
+}

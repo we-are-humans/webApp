@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: 0;
+  outline: 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  display: block; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #eeeeee; }
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+em {
+  font-style: normal; }
+
+header {
+  height: 0.44rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.05rem;
+  padding-right: 0.09rem;
+  background: #666; }
+  header img {
+    width: 0.77rem;
+    height: 0.18rem; }
+  header .iconfont {
+    font-size: 0.22rem;
+    color: #fff; }
+
+.welfare {
+  line-height: 0.18rem;
+  padding: 0.1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .welfare .set-number {
+    font-size: 0.14rem;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.3rem;
+    background: yellow; }
+    .welfare .set-number em {
+      height: 0.18rem;
+      padding: 0  0.05rem;
+      background: skyblue; }
+  .welfare a {
+    width: 0.87rem;
+    height: 0.26rem;
+    background: lime url("../img/3.png") no-repeat;
+    background-size: 0.87rem 0.26rem;
+    background-position: -1.66rem -3.96rem; }
+
+.brand {
+  width: 3.75rem;
+  height: 0.7rem; }
+
+.view-wrapper .tit {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .view-wrapper .tit .tit-box {
+    display: flex;
+    width: 3.19rem;
+    justify-content: space-between; }
+    .view-wrapper .tit .tit-box a {
+      background: purple;
+      padding: 0.1rem 0.2rem;
+      font-size: 0.16rem;
+      color: white; }
+    .view-wrapper .tit .tit-box a.active {
+      background: #cb1f36; }
+.view-wrapper .content {
+  display: flex;
+  justify-content: center;
+  background: url("../img/44.webp");
+  background-size: 100% auto; }
+  .view-wrapper .content .item-box {
+    display: none; }
+    .view-wrapper .content .item-box .item {
+      background: #cb1f36;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 2.99rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem; }
+      .view-wrapper .content .item-box .item .item-slide {
+        flex-shink: 0;
+        width: 32%;
+        height: 1.33rem;
+        background: #fff;
+        margin-bottom: 0.05rem; }
+        .view-wrapper .content .item-box .item .item-slide .item-slide-coupon {
+          height: 0.95rem;
+          color: orange;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .view-wrapper .content .item-box .item .item-slide .item-slide-coupon > div p {
+            font-size: 0.12rem; }
+          .view-wrapper .content .item-box .item .item-slide .item-slide-coupon > div h2 {
+            font-size: 0.16rem; }
+        .view-wrapper .content .item-box .item .item-slide > p {
+          font-size: 0.14rem;
+          padding-left: 0.1rem; }
+        .view-wrapper .content .item-box .item .item-slide h4 {
+          color: red;
+          font-size: 0.12rem;
+          padding-left: 0.1rem; }
+      .view-wrapper .content .item-box .item .item-slide4 .item-slide-coupon img {
+        width: 0.8rem;
+        height: 0.8rem; }
+      .view-wrapper .content .item-box .item .item-slide4 p {
+        font-size: 0.12rem; }
+      .view-wrapper .content .item-box .item .item-slide4 h4 {
+        display: flex;
+        font-size: 0.12rem;
+        font-weight: 100; }
+        .view-wrapper .content .item-box .item .item-slide4 h4 del {
+          color: #666; }
+      .view-wrapper .content .item-box .item .item-slide5 .item-slide-coupon {
+        font-size: 0.14rem; }
+        .view-wrapper .content .item-box .item .item-slide5 .item-slide-coupon div {
+          width: 0.86rem;
+          height: 0.88rem;
+          background: url("../img/3.png");
+          background-size: 3.47rem 2.22rem;
+          background-position: -0.88rem 0; }
+      .view-wrapper .content .item-box .item .item-slide5 a {
+        display: block;
+        text-decoration: underline;
+        font-size: 0.12rem;
+        text-align: center; }
+      .view-wrapper .content .item-box .item .item-slide6 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/35.webp");
+        background-size: 0.86rem 0.88rem;
+        background-position: left center; }
+      .view-wrapper .content .item-box .item .item-slide6 > p {
+        font-size: 0.12rem; }
+      .view-wrapper .content .item-box .item .item-slide6 h4 del {
+        color: #666;
+        font-weight: 100; }
+      .view-wrapper .content .item-box .item .item-slide7 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/36.webp");
+        background-size: 0.86rem 0.88rem;
+        background-position: left center; }
+      .view-wrapper .content .item-box .item .item-slide7 > p {
+        font-size: 0.12rem; }
+      .view-wrapper .content .item-box .item .item-slide7 h4 del {
+        color: #666;
+        font-weight: 100; }
+      .view-wrapper .content .item-box .item .item-slide8 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/38.webp");
+        background-size: 0.86rem 0.88rem;
+        background-position: left center; }
+      .view-wrapper .content .item-box .item .item-slide8 > p {
+        width: 0.72rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.12rem; }
+      .view-wrapper .content .item-box .item .item-slide8 h4 del {
+        color: #666;
+        font-weight: 100; }
+      .view-wrapper .content .item-box .item .item-slide9 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/39.webp");
+        background-size: 0.8rem 0.8rem; }
+      .view-wrapper .content .item-box .item .item-slide9 p {
+        width: 0.72rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .view-wrapper .content .item-box .item .item-slide10 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/40.webp");
+        background-size: 0.8rem 0.8rem; }
+      .view-wrapper .content .item-box .item .item-slide11 .item-slide-coupon {
+        font-size: 0.14rem; }
+        .view-wrapper .content .item-box .item .item-slide11 .item-slide-coupon div {
+          width: 0.86rem;
+          height: 0.88rem;
+          background: url("../img/3.png");
+          background-size: 3.47rem 2.22rem;
+          background-position: -0.88rem 0; }
+      .view-wrapper .content .item-box .item .item-slide11 a {
+        display: block;
+        text-decoration: underline;
+        font-size: 0.12rem;
+        text-align: center; }
+      .view-wrapper .content .item-box .item .item-slide12 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/41.webp");
+        background-size: 0.8rem 0.8rem; }
+      .view-wrapper .content .item-box .item .item-slide13 .item-slide-coupon div {
+        width: 0.8rem;
+        height: 0.8rem;
+        background: url("../img/42.webp");
+        background-size: 0.8rem 0.8rem; }
+
+.activity .activity-tit {
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.1rem; }
+  .activity .activity-tit .star {
+    display: flex;
+    font-size: 0.16rem;
+    color: #666; }
+    .activity .activity-tit .star img {
+      width: 0.2rem;
+      height: 0.2rem;
+      margin-right: 0.03rem; }
+  .activity .activity-tit .more {
+    display: flex;
+    align-items: center; }
+    .activity .activity-tit .more a {
+      font-size: 0.14rem;
+      margin-right: 0.03rem;
+      color: skyblue; }
+    .activity .activity-tit .more img {
+      width: 0.18rem;
+      height: 0.18rem; }
+.activity .activity-logo {
+  display: flex;
+  justify-content: center; }
+  .activity .activity-logo a {
+    width: 3.57rem;
+    height: 1.12rem; }
+
+footer {
+  height: 0.5rem;
+  display: flex;
+  align-items: center; }
+  footer a {
+    flex: 1;
+    text-align: center;
+    font-size: 0.12rem; }
+    footer a img {
+      width: 0.5rem;
+      height: 0.25rem;
+      margin: 0 auto 0.03rem; }
+    footer a span {
+      color: #000000; }
+
+/*# sourceMappingURL=draw.css.map */

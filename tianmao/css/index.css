@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: 0;
+  outline: 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  display: block; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+header {
+  height: 0.44rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.05rem;
+  padding-right: 0.09rem;
+  background: #666; }
+  header img {
+    width: 0.77rem;
+    height: 0.18rem; }
+  header .iconfont {
+    font-size: 0.22rem;
+    color: #fff; }
+
+.search {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center; }
+  .search .search-box {
+    width: 3.45rem;
+    height: 0.3rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 0.15rem; }
+    .search .search-box .search-text {
+      font-size: 0.15rem;
+      color: gray;
+      padding-left: 0.3rem;
+      display: flex;
+      align-items: center;
+      background: url("../img/2.png") 0.1rem 50% no-repeat;
+      background-size: 0.15rem 0.15rem; }
+
+.banner {
+  margin-top: -0.88rem;
+  width: 3.75rem;
+  height: 2.69rem; }
+
+.menu {
+  display: flex;
+  overflow-x: auto;
+  width: 100%; }
+  .menu .list {
+    padding-bottom: 0.3rem;
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap; }
+    .menu .list .item {
+      margin-top: 0.15rem;
+      flex-shrink: 0;
+      width: 20%;
+      text-align: center; }
+      .menu .list .item img {
+        width: 0.56rem;
+        height: 0.56rem;
+        display: block;
+        margin: 0 auto 0.05rem;
+        border-radius: 50%; }
+      .menu .list .item span {
+        display: block;
+        font-size: 0.12rem;
+        color: #000; }
+
+.section {
+  padding-left: 0.1rem; }
+  .section .channel .header {
+    padding-top: 0.16rem;
+    padding-bottom: 0.12rem;
+    font-size: 0.16rem; }
+    .section .channel .header span {
+      color: lime;
+      font-weight: 700; }
+  .section .channel .content {
+    display: flex;
+    height: 2rem; }
+    .section .channel .content .img-box {
+      width: 1.4rem;
+      height: 2rem;
+      background: yellow; }
+    .section .channel .content .detail .item {
+      display: flex;
+      align-items: center;
+      height: 45%; }
+      .section .channel .content .detail .item .detail-text {
+        padding-left: 0.1rem; }
+        .section .channel .content .detail .item .detail-text h1 {
+          font-size: 0.16rem; }
+        .section .channel .content .detail .item .detail-text h2 {
+          font-size: 0.14rem;
+          font-weight: 100; }
+        .section .channel .content .detail .item .detail-text p {
+          font-size: 0.14rem;
+          color: lime; }
+        .section .channel .content .detail .item .detail-text a {
+          margin-top: 0.1rem;
+          display: block;
+          background: skyblue;
+          color: #fff;
+          font-size: 0.16rem;
+          white-space: nowrap; }
+      .section .channel .content .detail .item > a {
+        margin-top: -0.2rem;
+        width: 1.15rem;
+        height: 1.15rem; }
+        .section .channel .content .detail .item > a img {
+          width: 1.15rem;
+          height: 1.15rem; }
+    .section .channel .content .detail .item1 {
+      margin-bottom: 0.1rem; }
+    .section .channel .content .detail .item2 {
+      margin-top: -0.2rem; }
+      .section .channel .content .detail .item2 .detail-text {
+        margin-right: 0.03rem; }
+      .section .channel .content .detail .item2 > a {
+        margin-top: 0.1rem;
+        height: 100%; }
+        .section .channel .content .detail .item2 > a img {
+          height: 100%; }
+    .section .channel .content .detail .bg {
+      height: 10%; }
+  .section .channel2 > a {
+    margin-top: -0.4rem;
+    display: block; }
+    .section .channel2 > a img {
+      width: 3.45rem;
+      height: 1.49rem; }
+  .section .channel2 .ui-fb {
+    display: flex; }
+    .section .channel2 .ui-fb a {
+      width: 32.75%; }
+      .section .channel2 .ui-fb a img {
+        width: 100%;
+        height: 100%; }
+
+footer {
+  height: 0.5rem;
+  display: flex;
+  align-items: center; }
+  footer a {
+    flex: 1;
+    text-align: center;
+    font-size: 0.12rem; }
+    footer a img {
+      width: 0.5rem;
+      height: 0.25rem;
+      margin: 0 auto 0.03rem; }
+    footer a span {
+      color: #000000; }
+
+/*# sourceMappingURL=index.css.map */

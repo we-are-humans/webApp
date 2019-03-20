@@ -1,0 +1,106 @@
+header{
+    height:1rem;
+    background:white;
+}
+section{
+    overflow-y:auto;
+    overflow-x:hidden;
+    -webkit-flex:1;
+}
+.swiper{
+    background:white;
+    height:1.32rem;
+}
+.courseList{
+    height:.69rem;
+    display:-webkit-flex;
+    background:white;
+    padding:0 .15rem 0 .15rem;
+    overflow-x:auto;
+    box-sizing:border-box;
+
+}
+.courseList a:last-child .courNav{
+    margin-right:.15rem;
+}
+.courNav{
+    width:.95rem;
+    height:.36rem;
+    background:#fbf3e6;
+    border-radius:.05rem;
+    margin-right:.04rem;
+    text-align:center;
+    padding-top:.09rem;
+    
+}
+.courNav h1{
+    font-size:.12rem;
+    color:#d0972c;
+    line-height:.12rem;
+    /* margin-top:.09rem; */
+}
+.courNav span{
+    font-size:.07rem;
+    color:#d0972c;
+    display:block;
+    margin-top:.05rem;
+}
+
+
+.courseAd{
+    padding:0 .15rem;
+    background:white;
+}
+.actCourse{
+    display:-webkit-flex;
+    height:.6rem;
+    -webkit-align-items:center;
+    padding-bottom:.19rem;
+
+}
+
+.actCourse img{
+    width:.87rem;
+    height:.6rem;
+    border-radius: .08rem;
+
+}
+.couDes{
+    width:1.49rem;
+    margin:0 .18rem 0 .11rem;
+}
+.couTit{
+    font-size: .14rem;
+    color:#2c363f;
+    line-height:.21rem;
+}
+.couInfo{
+    font-size: .11rem;
+    color:#2c363f;
+    line-height:.17rem;
+}
+.couInfo span{
+    font-size:.09rem;
+    color:#7b7e83;
+    margin-right:.14rem;
+}
+.couInfo span img{
+    display:inline-block;
+    width:.1rem;
+    height:.11rem;
+    margin-left:.14rem;
+    vertical-align:middle;
+}
+.price{
+    width:.7rem;
+    height:.31rem;
+    background:#f1f3f2;
+    line-height:.31rem;
+    text-align:center;
+    border-radius:.31rem;
+}
+.price span{
+    font-size:.09rem;
+    color:#7b7e83;
+    display:block;
+}
